@@ -146,4 +146,27 @@
             justify-content: center;
             gap: 8px;
         }
-        
+       
+        .add-to-cart:hover {
+            background-color: #2980b9;
+        }
+        .add-to-cart.added {
+            background-color: #27ae60;
+        }
+        .wishlist-btn {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: none;
+            border: none;
+            color: #adb5bd;
+            font-size: 1.3rem;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+        .wishlist-btn.active {
+            color: #e74c3c;
+        }
+        .wishlist-btn:hover {
+            color: #e74c3c;
+        } 
